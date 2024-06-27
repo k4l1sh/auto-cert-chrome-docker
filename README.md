@@ -16,7 +16,7 @@ docker build -t auto_cert_chrome:latest .
 docker run -p 5900:5900 --rm auto_cert_chrome:latest python example.py -c example_certificate -p 123123
 ```
 
-The default password for the [certificate](./certs) used as example is 123123.
+The default password for the [certificate](./certs) used as example is `123123`.
 
 ## Accessing with VNC
 
